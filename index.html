@@ -5,35 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../UX_UI_HW_18/css/style.css" rel="stylesheet" type="text/css">
-    <title>hw18bomiportfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="../UX_UI_HW_19/css/style.css" rel="stylesheet" type="text/css">
+    <title>hw19bomiportfolio</title>
 </head>
 
 <body>
+
+    <!--HEAD NAV. SECTION-->
     <section id="headsection">
         <div class="nav">
             <li>HOME</li>
             <li>ABOUT ME</li>
             <li>MY WORK</li>
             <li>CONTACT</li>
-            </ul>
+        </div>
     </section>
 
     <!--LANDING PAGE-->
-    <section id="landingpage">
+    <section id="landingpageSection">
         <img id="myimage" src="images/myimage.png" alt=myimge>
         <img id="bomihan" src="images/myname.png" alt=bomihan>
         <div id="uxdesigner">User Experience Designer</div>
-        <button>DOWNLOAD RESUME</button>
+        <button class="btn">DOWNLOAD RESUME</button>
         <img id="herodecowhite" src="../UX_UI_HW_18/images/herodecowhite1.png">
         <img id="herodecoyellow" src="images/herodecoyellow1.png">
     </section>
 
     <!--ABOUT ME SECTION-->
-    <section id="aboutmesection">
+    <section id="aboutmeSection">
         <div class=aboutmeContent>
-            <h>About Me</h>
-            <p>With a background in an exhibition industry, my role in each always involves the project managing,
+            <h1>About Me</h1>
+            <p1>With a background in an exhibition industry, my role in each always involves the project managing,
                     supervising, and working with skateholder. By taking a responsibilites of my role, I was able to solve
                     the urgent problems, work detaily, collaborate with different departments and communicate between two
                     companies.
@@ -42,18 +46,18 @@
                     process entail creating target users, doing interviews with target users and get an insight from the
                     interview results. Afterthen Identify users’ painpoint and needs. Using heuristic analysis, card
                     sorting, site map and user flow make sure whether it’s being made easier and friendly for people to use.
-                    Also, by doing a multiple usertesting and prototype iteration improve the users’ experience. </p>
-            <h>Stay Humble</h>
-            <p>I consider my self a humble person. By staying humble I can pay attention to what other people saying
+                    Also, by doing a multiple usertesting and prototype iteration improve the users’ experience. </p1>
+            <h1>Stay Humble</h1>
+            <p1>I consider my self a humble person. By staying humble I can pay attention to what other people saying
                     and thingking. It can also mean, I am open to the feedback. As a ux designer it is important to listen
                     honest and directed feedback. Receiving other people’s feedback can broaden my thingking and it can help
-                    to develop my problem solving skills. </p>
+                    to develop my problem solving skills. </p1>
         </div>
     </section>
 
     <!--MY UX SKILLS SECTION-->
-    <section id="myuxskills">
-        <h3 class="title">MY UX SKILLS</h3>
+    <section id="myuxskillsSection">
+        <h2 class="title">MY UX SKILLS</h2>
         <div class="cardcontainer">
             <div class="card">
                 <div class="cardheader">
@@ -85,6 +89,7 @@
                 </div>
             </div>
         </div>
+
         <h3 class="tools">TOOLS I KNOW</h3>
         <div class="toolsContainer">
             <div class="toolItem">Figma</div>
@@ -99,13 +104,29 @@
             <div class="toolItem">Illustrator</div>
             <div class="toolItem">Zeplin</div>
             <div class="toolItem">MS Office</div>
-           
         </div>
+    </section>
 
+    
+    <!--MY WORK-->
+    <section id="myworkSection">
+        <h4 class="title">MY WORK</h4>
+        <div class="workcontainer">
+            <span class="workcontainer1">
+                <div class="worktitle">Non-profit Organization<br>Website UI Redesign</div>
+                <div class="mockup"><img src="images/nonprofitorgmockup.png" width="350" height="200"></div>
+                <div class="description">Redesign the non profit government website to incline the donation and revisit the website</div>
+            </span>
+            <span class="workcontainer2">
+                <div class="worktitle">NSA Goverment Website<br>Naviagtion Redesign</div>
+                <div class="mockup"><img src="images/nsagovmockup.png" width="350" height="200"></div>
+                <div class="description">Redeisgn the website IA structure, layout and navigation, to allow people quickly access and easily find the reliable resources they are looking for</div>
+            </span>
+        </div>
     </section>
 
     <!---FOOTER SECTION-->
-    <section class="footersection">
+    <section id="footerSection">
         <div class="nav">
             <li>HOME</li>
             <li>ABOUT ME</li>
@@ -114,6 +135,8 @@
         </div>
         <div id="Copyright">Copyright2021</div>
     </section>
-</body>
 
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js" type="text/javscript"></script>
 </html>
